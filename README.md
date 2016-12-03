@@ -1,9 +1,10 @@
 Tuition-Bot-NTU
 ===================
-Telegram Bot that helps matching student and teacher for coursework dobuts, while keeping all their information secure.  
-[Bot Link](https://telegram.me/TutoRoBot)
+Telegram Bot for NTU students to connect with their coursework Professors via a secure chat. The Bot also suggests online available videos, lecture notes, etc. related to the student's coursework or a specific topic. 
 
-### Procedures: 
+Bot Link: [TuitionBotNTU](https://telegram.me/TutoRoBot)
+
+### Run procedures: 
 Admin password(case sensitive) set to: q 
 
  1. Count=0:
