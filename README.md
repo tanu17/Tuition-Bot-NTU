@@ -1,10 +1,10 @@
 Tuition-Bot-NTU
 ===================
-Telegram Bot that helps matching student and teacher for coursework dobuts, while keeping all their information secure.
+Telegram Bot that helps matching student and teacher for coursework dobuts, while keeping all their information secure.  
+[Bot Link](https://telegram.me/TutoRoBot)
 
 ### Procedures: 
-Admin password(case sensitive) set to: q
-[Bot Link](https://telegram.me/TutoRoBot)
+Admin password(case sensitive) set to: q 
 
  1. Count=0:
 Checks whether the folder TuitionBot_Users exist in directory where the python file is stored.If folder is not there then the said folder is made.If the folder already exist,then the information are loaded in form of nested list with each element as list of legth 2(file no,course content).The info is then stored in the appropriate list (student_list or teacher_list) .Just file number and course content chosen are stored in runtime to prevent leak of information like name and phone number.
