@@ -4,7 +4,7 @@ from telepot.delegate import pave_event_space, per_chat_id, create_open
 import time, os, pickle
 
 
-#the program basically inputs details from user, their name ,year,school which they have problem in,course which they have problem in and finally he topic which they have problem in
+#the program takes inputs from user- their name, year,course which they have problem in and finally the topic which they have problem in
 #the __next__ step will be to have a tutor enter their details and finally match tutor and student by exchanging their informations
 #and if possible to xreate a new bot for them so that both of them can chat
 
@@ -17,7 +17,7 @@ class MessageCounter(telepot.helper.ChatHandler):
         self.s=""               #created so that message list to be send can be send in one message only and not in messsages
         self.teacher_stu=""     #stores whether the user is a student or teacher (not used for admin)
         self.s1=""              #created so that message list to be send can be send in one message only and not in messsages
-        self.count = 0       #counter in the program
+        self.count = 0          #counter in the program
         self.name=""            #stores name of user
         self.school="scse"      #stores school of user(not used for admin)
         self.course_study=""    #stores the course chosen(not used for admin)
