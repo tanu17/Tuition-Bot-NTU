@@ -1,5 +1,8 @@
 Tuition-Bot-NTU
 ===================
+
+//Designed for course CZ1003
+
 Telegram Bot for NTU students to connect with their coursework Professors via a secure chat. The Bot also suggests online available videos, lecture notes, etc. related to the student's coursework or a specific topic. Developed using Telegram bot API.  
 
 Bot Link: [TuitionBotNTU](https://telegram.me/TutoRoBot)  
